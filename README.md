@@ -33,7 +33,7 @@ The ROC_AUC graph shows that Random Forest is a better model as it has higher AU
 
 ![read-me-banner-cropped-img](./images/read_me_banner_cropped.PNG)
 
-Further look at the Recall/Precision scorecard, it further endorse the choice of Random Forest Model as it achieves higher performance in detecting the negative sentiment.
+I also examine the Recall/Precision scorecard(Accuracy score is not quite useful due to the data is inbalanced). It further endorsed the choice of Random Forest Model as it achieved higher performance in detecting the negative sentiment.
 
 Recall (negative class)
 * Random Forest: 0.82

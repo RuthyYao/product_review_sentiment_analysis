@@ -28,7 +28,6 @@ I took the following steps for this sentiment analysis and prediction.
  * Identify the key words that reveal the negative and postive sentiments respectively
 
 ## Reuslts
-Based on the ROC curve and recall/precision scorecard, I recommend deploy the Random Forest Model
 
 The ROC_AUC graph shows that Random Forest is a better model as it has higher AUC.
 
@@ -43,5 +42,17 @@ Rcall (negative class)
 Precision(positive class)
 * Random Forest: 0.94
 * Logistic Regression: 0.92
+  
 ## Applications
+
+The sentiment classification can direct us to action on the following: 
+
+* **Product Improvement**: Since most of the negative sentiment is around the "taste" and "freshness", it would be worth focusing on improving the taste of our products and how to better preserve the food to maintain the freshness.
+* **Customer Satisfaction**: Track sentiment trends over time to see if new product launches are being well received.
+* **Marketing Strategy**: Highlight positive reviews to promote top-performing products.
+
+## Growth & Next Steps
+* Try using Logistic regression + L1 regularization
+* Try other machine learning methods.
+* Classify the sentiment into multi-class(postive, neutral, negative) and run a multiclass classification model.
 

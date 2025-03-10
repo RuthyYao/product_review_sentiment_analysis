@@ -56,3 +56,19 @@ The sentiment classification can direct us to action on the following:
 * Try other machine learning methods.
 * Classify the sentiment into multi-class(postive, neutral, negative) and run a multiclass classification model.
 
+## For More Information
+
+See the full analysis in the [Jupyter Notebook](./amazon_customers_review_analysis.ipynb) or review this [presentation](./amazon_customers_review_presentation.pdf).
+
+For additional info, contact Ruthy Yao at [zejia.yao@gmail.com](mailto:zejia.yao@gmail.com) or [LinkedIn](https://www.linkedin.com/in/ruthy-yao-b3258b25/).
+
+## Repository Structure
+
+```
+├── Data
+│   └── database.sqlite
+├── images
+├── amazon_customers_review_analysis.ipynb 
+├── amazon_customers_review_presentation.pdf
+└── README.md
+```

@@ -28,7 +28,20 @@ I took the following steps for this sentiment analysis and prediction.
  * Identify the key words that reveal the negative and postive sentiments respectively
 
 ## Reuslts
+Based on the ROC curve and recall/precision scorecard, I recommend deploy the Random Forest Model
 
+The ROC_AUC graph shows that Random Forest is a better model as it has higher AUC.
 
+![read-me-banner-cropped-img](./images/read_me_banner_cropped.PNG)
+
+Further look at the Recall/Precision scorecard, it further endorse the choice of Random Forest Model as it achieves higher performance in detecting the negative sentiment.
+
+Rcall (negative class)
+* Random Forest: 0.82
+* Logistic Regression: 0.74
+
+Precision(positive class)
+* Random Forest: 0.94
+* Logistic Regression: 0.92
 ## Applications
 

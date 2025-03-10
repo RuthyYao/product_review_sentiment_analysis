@@ -27,7 +27,7 @@ I took the following steps for this sentiment analysis and prediction.
  * Evaluating the models using ROC_AUC graph and precision/recall scorecard.
  * Identify the key words that reveal the negative and postive sentiments respectively
 
-## Reuslts
+## Results
 
 The ROC_AUC graph shows that Random Forest is a better model as it has higher AUC.
 

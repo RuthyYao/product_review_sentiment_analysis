@@ -22,9 +22,10 @@ I build a Term-doc incidence matrix using term frequency and inverse document fr
 I took the following steps for this sentiment analysis and prediction.
 
  * Data cleaning including text preprocessing, implemented stemming, punctuation removal, lower case conversion.
- * Prepare the data to get the observed *frequency*.
- * Run the Chi-square test to obtain the chi-square statistics and the p-value.
- * Calculate the critical value using Python's Scipy package.
+ * Word embedding using TF-IDF model.
+ * Develop Machine Learning Models.
+ * Evaluating the models using ROC_AUC graph and precision/recall scorecard.
+ * Identify the key words that reveal the negative and postive sentiments respectively
 
 ## Reuslts
 

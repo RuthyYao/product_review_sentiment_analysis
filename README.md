@@ -31,7 +31,7 @@ I took the following steps for this sentiment analysis and prediction.
 
 The ROC_AUC graph shows that Random Forest is a better model as it has higher AUC.
 
-![read-me-banner-cropped-img](./images/read_me_banner_cropped.PNG)
+![ROC-img](./images/classifiers_comparison_with_ROC.PNG)
 
 I also examine the Recall/Precision scorecard(Accuracy score is not quite useful due to the data is inbalanced). It further endorsed the choice of Random Forest Model as it achieved higher performance in detecting the negative sentiment.
 

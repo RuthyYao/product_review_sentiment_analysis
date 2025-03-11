@@ -13,7 +13,7 @@ The data analytics team was asked to automate the process of sentiment analysis 
 ## Data Understanding
 The original dataset has over 560,000 pieces of reviews from Oct 1999 to Oct 2012, each with the customer who wrote the review, the product ID, the date and time of the review and the rating score. As we are only interested in the recent customer's feedback about our products, the dataset was trimmed to include only the last twelve months' reviews. The subsetted dataset has over 233,000 pieces of data.
 
-The rating score from 1 to 5 represent the "Actual" sentiment from the customers. We use the review text to predict the sentiment and evaluate the prediction accuracy against the "Actual" sentiment. The sentiment is divided to "Positive" and "Negative". Score above 3 will be classified as "positive" , otherwise the sentiment is "negative". The split of the data is 75 postive : 25 negative, indicating the dataset is kind of inbalanced. 
+The rating score from 1 to 5 represent the "Actual" sentiment from the customers. We use the review text to predict the sentiment and evaluate the prediction accuracy against the "Actual" sentiment. The sentiment is divided to "Positive" and "Negative". Score above 3 will be classified as "positive" , otherwise the sentiment is "negative". The split of the data is 75 postive : 25 negative, indicating the dataset is kind of imbalanced. 
 
 ## Methodology
 I build a Term-doc incidence matrix using term frequency and inverse document frequency ponderation (TF-IDF) model to convert the text to numerical. I put in some explanation on why I choose TF-IDF model over the Bag-of-word models. To predict the sentiment, I fit into two machine learning models for comparision - Logistic Regression and Random Forest Model. 
@@ -33,7 +33,7 @@ The ROC-AUC graph shows that Random Forest is a better model as it has higher AU
 
 ![ROC-img](./images/classifiers_comparison_with_ROC.PNG)
 
-I also examine the Recall/Precision scores (Accuracy score is not quite useful in this case due to the inbalance of the data). It further endorsed the choice of Random Forest Model as it achieved higher performance in detecting the negative sentiment.
+I also examine the Recall/Precision scores (Accuracy score is not quite useful in this case due to the imbalance of the data). It further endorsed the choice of Random Forest Model as it achieved higher performance in detecting the negative sentiment.
 
 Recall score for negative class (The percentage of the negative reviews that the Model did predicted as negative): 
 * Random Forest: 0.82

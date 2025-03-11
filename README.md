@@ -21,19 +21,19 @@ I build a Term-doc incidence matrix using term frequency and inverse document fr
 ## Analytical Process
 I took the following steps for this sentiment analysis and prediction.
 
- * Data cleaning including text preprocessing, implemented stemming, punctuation removal, lower case conversion.
- * Word embedding using TF-IDF model.
+ * Clean the data including text preprocessing, implementing stemming, punctuation removal, lower case conversion.
+ * Perform word embedding to convert the text to numerical using TF-IDF model.
  * Develop Machine Learning Models.
- * Evaluating the models using ROC_AUC graph and precision/recall scorecard.
- * Identify the key words that reveal the negative and postive sentiments respectively
+ * Evaluate the ML models using ROC-AUC graph and precision/recall scorecard.
+ * Identify the most important words that lead to a particular sentiment class(positive or negative).
 
 ## Results
 
-The ROC_AUC graph shows that Random Forest is a better model as it has higher AUC.
+The ROC-AUC graph shows that Random Forest is a better model as it has higher AUC.
 
 ![ROC-img](./images/classifiers_comparison_with_ROC.PNG)
 
-I also examine the Recall/Precision scorecard(Accuracy score is not quite useful due to the data is inbalanced). It further endorsed the choice of Random Forest Model as it achieved higher performance in detecting the negative sentiment.
+I also examine the Recall/Precision scores (Accuracy score is not quite useful in this case due to the inbalance of the data). It further endorsed the choice of Random Forest Model as it achieved higher performance in detecting the negative sentiment.
 
 Recall (negative class)
 * Random Forest: 0.82

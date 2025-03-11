@@ -16,7 +16,7 @@ The original dataset has over 560,000 pieces of reviews from Oct 1999 to Oct 201
 The rating score from 1 to 5 represent the "Actual" sentiment from the customers. We use the review text to predict the sentiment and evaluate the prediction accuracy against the "Actual" sentiment. The sentiment is divided to "Positive" and "Negative". Score above 3 will be classified as "positive" , otherwise the sentiment is "negative". The split of the data is 75 postive : 25 negative, indicating the dataset is kind of imbalanced. 
 
 ## Methodology
-I build a Term-doc incidence matrix using term frequency and inverse document frequency ponderation (TF-IDF) model to convert the text to numerical. I put in some explanation on why I choose TF-IDF model over the Bag-of-word models. To predict the sentiment, I fit into two machine learning models for comparision - Logistic Regression and Random Forest Model. 
+I build a Term-doc incidence matrix using term frequency and inverse document frequency ponderation (TF-IDF) model to convert the text to numerical. I put in some explanation on why I choose TF-IDF model over the Bag-of-word models. Then I use **World of Cloud** to identify the most frequent words in each of the sentiment classes. To predict the sentiment, I fit into two machine learning models for comparision - Logistic Regression and Random Forest Model. 
 
 ## Analytical Process
 I took the following steps for this sentiment analysis and prediction.

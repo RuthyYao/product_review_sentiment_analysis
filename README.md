@@ -58,7 +58,7 @@ The sentiment classification can direct us to action on the following:
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](./amazon_customers_review_analysis.ipynb) or review this [presentation](./amazon_customers_review_presentation.pdf).
+See the full analysis in the [Jupyter Notebook](./amazon_customers_review_analysis.ipynb) or review this [presentation](./amazon_customer_review_presentation.pdf).
 
 For additional info, contact Ruthy Yao at [zejia.yao@gmail.com](mailto:zejia.yao@gmail.com) or [LinkedIn](https://www.linkedin.com/in/ruthy-yao-b3258b25/).
 
@@ -69,6 +69,6 @@ For additional info, contact Ruthy Yao at [zejia.yao@gmail.com](mailto:zejia.yao
 │   └── database.sqlite
 ├── images
 ├── amazon_customers_review_analysis.ipynb 
-├── amazon_customers_review_presentation.pdf
+├── amazon_customer_review_presentation.pdf
 └── README.md
 ```
